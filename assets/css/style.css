@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  margin-top: 10%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main-header {
+  display: flex;
+  justify-content:left;
+  background: #13293d;
+  color: #fff;
+  padding: 30px;
+}
+
+.card {
+  flex: 10 0 0;
+  text-align: center;
+  border-style: solid;
+  border-width: 20px;
+}
+
+.card header {
+  padding: 20px;
+  background: #13293d;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  /* The client insists that images be at least 400px */
+  min-width: 400px;
+}
